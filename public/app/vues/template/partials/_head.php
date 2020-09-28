@@ -11,7 +11,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="manifest" href="site.webmanifest">
   <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
-  <base href="<?php echo BASE_URL; ?>" target="_top">
+  <base href="<?php echo BASE_URL_PUBLIC; ?>" target="_top">
 
   <!-- CSS here -->
   <link rel="stylesheet" href="assets/css/bootstrap.min.css">

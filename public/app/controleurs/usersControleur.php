@@ -19,13 +19,13 @@ $content = ob_get_clean();
 include_once '../app/modeles/usersModele.php';
 
 function loginCheckAction(\PDO $connexion) {
-  $user = \App\Modele\UsersModele\findOneByLoginPassword($connexion, $_POST['login'], $_POST['password']);
+  $user = UsersModele\findOneByLoginPassword($connexion, $_POST['login'], $_POST['password']);
 
 if ($user) {
-  header('location: '. BASE_URL .'/users/login');
+  header('location: '. BASE_URL_ADMIN);
 }
 
 else {
-  header('location: '. BASE_URL .'/users/login');
-}
+  header('location: '. BASE_URL_PUBLIC .' users/login');
+     }
 }
