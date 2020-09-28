@@ -36,9 +36,17 @@ RewriteRule ^posts\/([1-9][0-9])\/([a-z0-9][a-z0-9\-]*)$ index.php?postID=$1 [L]
 
 
 #Route des USERS, FORMULAIRE DE LOGIN
-#PATTERN:  users/login/form
+#PATTERN:  users/login
 #URL: index.php?users=login
-RewriteRule ^users\/login\/form$ index.php?users=loginForm [L]
+RewriteRule ^users\/login$ index.php?users=loginForm [L]
+
+
+
+
+#TRAITEMENT DE CONNEXION AU BACKOFFICE
+#PATTERN:  users/login/submit
+#URL: index.php?users=loginCheck
+RewriteRule ^users\/login\/submit$ index.php?users=loginCheck [L]
 
 
 

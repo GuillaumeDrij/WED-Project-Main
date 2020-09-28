@@ -72,4 +72,5 @@
                  type="submit">Subscribe</button>
          </form>
      </aside>
+     <?php include '../app/vues/template/partials/_morePosts.php'; ?>
  </div>

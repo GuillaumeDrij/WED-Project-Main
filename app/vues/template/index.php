@@ -7,7 +7,7 @@ Template principal
 
  <!doctype html>
 <html class="no-js" lang="zxx">
-    <?php include '../app/vues/template/partials/_head.php'; ?>
+  <?php include '../app/vues/template/partials/_head.php'; ?>
 <body>
 <?php include '../app/vues/template/partials/_preloader.php'; ?>
 <!--<?php echo $_GET['message']; ?>-->

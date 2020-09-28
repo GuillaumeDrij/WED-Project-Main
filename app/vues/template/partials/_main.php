@@ -11,7 +11,6 @@
             <div class="col-lg-8 mb-5 mb-lg-0">
                 <div class="blog_left_sidebar">
                       <?php echo $content; ?>
-                      <?php include '../app/vues/template/partials/_moreNav.php'; ?>
                 </div>
             </div>
               <div class="col-lg-4">
@@ -20,5 +19,4 @@
           </div>
       </div>
   </section>
-  <!--================Blog Area =================-->
 </main>
