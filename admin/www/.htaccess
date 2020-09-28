@@ -7,7 +7,17 @@ Options +FollowSymlinks
 
 # Activation du module de réécriture d'URL :
 RewriteEngine on
+________________
+# ROUTES
+________________
+
+// DECONNEXION USER
+// PATTERN : user/logout
+// VERS: index.php?user=logout
+
+  #RewriteRule ^user\/logout$ index.php?user=logout [L]
+
+// Faire en sorte qu'on soit déconnecté
 
 
-
-RewriteRule ^(.*)$ index.php [L]
+  RewriteRule ^(.*)$ index.php [L]
