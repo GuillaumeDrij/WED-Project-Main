@@ -30,6 +30,6 @@ if ($user) {
 }
 
 else {
-  header('location: '. BASE_URL_PUBLIC .'users/login');
+  header('location: '. BASE_URL_PUBLIC. 'users/login');
      }
 }

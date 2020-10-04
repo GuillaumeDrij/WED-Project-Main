@@ -4,6 +4,7 @@
 Définition des zones dynamiques
 Connexion à la base de données
 -----------------------------------------------------------------*/
+
 session_start();
 
 require_once '../noyau/constantes.php';

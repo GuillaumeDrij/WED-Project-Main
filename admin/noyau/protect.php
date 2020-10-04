@@ -15,6 +15,6 @@
 //Soit vous chargez les constantes public
 //Soit vous chargez les constantes admin
 
-  if(!isset($_SESSION['user'])):
-  header('location: '. BASE_URL_PUBLIC .' users/login');
-endif;
+ if(!isset($_SESSION['user'])):
+     header('location: '. BASE_URL_PUBLIC .'users/login');
+ endif;
